@@ -2,14 +2,14 @@ if (!"shiny" %in% installed.packages()) install.packages("shiny")
 
 library(shiny)
 
-# Define UI for application that draws a histogram
+# Define UI for application
 shinyUI(pageWithSidebar(
 
   # Application title
   headerPanel("UK house price calculator"),
   
 
-  # Sidebar with a slider input
+  # Sidebar with a input controls
   sidebarPanel(
           
     helpText(strong("Input parameters")),
@@ -39,7 +39,7 @@ shinyUI(pageWithSidebar(
     
   ),
 
-  # Show a plot of the generated distribution
+  # Define main panel:
   mainPanel(
 #     verbatimTextOutput("test"), 
           

@@ -17,7 +17,7 @@ data(EWHP) # call the datafarame
 # processed$TypDetch <- factor(ifelse(processed$TypDetch == 0, "No", "Yes"))
 
 
-# Define server logic required to draw a histogram
+# Define server logic:
 shinyServer(function(input, output) {
 
 # Fit the model:
