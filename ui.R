@@ -9,7 +9,7 @@ shinyUI(pageWithSidebar(
   headerPanel("UK house price calculator"),
   
 
-  # Sidebar with a input controls
+  # Sidebar with input controls
   sidebarPanel(
           
     helpText(strong("Input parameters")),
